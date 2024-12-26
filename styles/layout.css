@@ -1,7 +1,6 @@
 #app {
     display: grid;
-    grid-template-columns: 51.25% 48.75%;
-
+    grid-template-columns: 50% 50%;
     height: 100vh;
     overflow: hidden;
 }
@@ -12,7 +11,7 @@ main {
     background-color: var(--surface-primary);
 
     & .main-container {
-        max-width: 33rem;
+        max-width: 32rem;
         margin-left: auto;
     }
 
@@ -32,9 +31,10 @@ main {
 aside {
     padding: 4rem;
     background-color: var(--surface-secondary);
+    overflow: auto;
 
     & .aside-container {
-        max-width: 31rem;
+        max-width: 32rem;
         margin-right: auto;
 
         & > img {
